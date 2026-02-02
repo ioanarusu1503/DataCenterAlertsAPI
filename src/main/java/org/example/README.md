@@ -44,7 +44,7 @@ Utilizarea Optional<T>: Metoda findGroup returneaza un Optional<ResourceGroup>. 
 generice pentru a forta tratarea cazului in care grupul cautat nu exista, evitand astfel erorile de tip NullPointerException.
 
 Exceptii Specifice: Fiecare eroare mentionata in enunt are o exceptie dedicata, ceea ce permite returnarea mesajelor de 
-eroare cu simbolurile corecte (##, %23, etc.) in locurile potrivite.
+eroare cu simbolurile corecte (##) in locurile potrivite.
 
 Try-Catch Blocks: Fiecare clasa de tip Command incapsuleaza logica intr-un bloc try-catch pentru a 
 intercepta erorile de procesare sau de parsare fara a opri executia intregului program.
