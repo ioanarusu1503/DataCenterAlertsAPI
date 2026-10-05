@@ -11,7 +11,6 @@ build/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-*.iws
 *.iml
 *.ipr
 out/
@@ -42,3 +41,10 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+*.class
+gradle/
+gradlew
+gradlew.bat
+build.gradle.kts
+settings.gradle.kts
